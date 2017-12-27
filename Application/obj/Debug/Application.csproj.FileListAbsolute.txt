@@ -18,3 +18,13 @@ D:\Projetos\Processo Seletivo\Take\GRC\Application\bin\Debug\pt-BR\Domain.resour
 D:\Projetos\Processo Seletivo\Take\GRC\Application\obj\Debug\Application.csprojResolveAssemblyReference.cache
 D:\Projetos\Processo Seletivo\Take\GRC\Application\obj\Debug\Application.dll
 D:\Projetos\Processo Seletivo\Take\GRC\Application\obj\Debug\Application.pdb
+D:\Projetos\Processo Seletivo\Take\GRC\grocery\Application\bin\Debug\Application.dll
+D:\Projetos\Processo Seletivo\Take\GRC\grocery\Application\bin\Debug\Application.pdb
+D:\Projetos\Processo Seletivo\Take\GRC\grocery\Application\bin\Debug\Domain.dll
+D:\Projetos\Processo Seletivo\Take\GRC\grocery\Application\bin\Debug\Infra.Data.dll
+D:\Projetos\Processo Seletivo\Take\GRC\grocery\Application\bin\Debug\Domain.pdb
+D:\Projetos\Processo Seletivo\Take\GRC\grocery\Application\bin\Debug\Infra.Data.pdb
+D:\Projetos\Processo Seletivo\Take\GRC\grocery\Application\bin\Debug\pt-BR\Domain.resources.dll
+D:\Projetos\Processo Seletivo\Take\GRC\grocery\Application\obj\Debug\Application.csprojResolveAssemblyReference.cache
+D:\Projetos\Processo Seletivo\Take\GRC\grocery\Application\obj\Debug\Application.dll
+D:\Projetos\Processo Seletivo\Take\GRC\grocery\Application\obj\Debug\Application.pdb
