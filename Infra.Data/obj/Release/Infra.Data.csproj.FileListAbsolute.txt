@@ -1,0 +1,8 @@
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.Data\bin\Release\Infra.Data.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.Data\bin\Release\Infra.Data.pdb
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.Data\bin\Release\Domain.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.Data\bin\Release\Domain.pdb
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.Data\bin\Release\pt-BR\Domain.resources.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.Data\obj\Release\Infra.Data.csprojResolveAssemblyReference.cache
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.Data\obj\Release\Infra.Data.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.Data\obj\Release\Infra.Data.pdb

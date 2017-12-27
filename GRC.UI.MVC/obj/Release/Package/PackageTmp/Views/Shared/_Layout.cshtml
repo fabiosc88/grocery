@@ -1,0 +1,52 @@
+﻿@using GRC.UI.MVC.Extensions
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - NonLinear</title>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/toastr")
+    @Styles.Render("~/Content/jqueryui")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <ul id="adminDropdown" class="dropdown-content">
+        <li class="@Html.IfActive("Categories")"><a href="@Url.Action("Index", "Categories")">Categories</a></li>
+        <li class="@Html.IfActive("Products")"><a href="@Url.Action("Index", "Products")">Products</a></li>
+    </ul>
+
+    <nav class="teal" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="@Url.Action("Index", "Home")" class="brand-logo">Nonlinear</a>
+            <a class="button-collapse" data-activates="nav_mobile" href="javascript:;">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li class="@Html.IfActive("Shop")"><a href="@Url.Action("Index", "Shop")">Shop</a></li>
+                <li> <a class="dropdown-button" href="#!" data-activates="adminDropdown">Admin<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+            <ul id="nav_mobile" class="side-nav">
+                <li class="@Html.IfActive("Shop")"><a href="@Url.Action("Index", "Shop")">Shop</a></li>
+                <li><a class="dropdown-button" href="#!">Admin</a></li>
+                <li class="@Html.IfActive("Categories")" style="margin-left:20px;"><a href="@Url.Action("Index", "Categories")">Categories</a></li>
+                <li class="@Html.IfActive("Products")" style="margin-left:20px;"><a href="@Url.Action("Index", "Products")">Products</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="section no-pad-bot">
+        @RenderBody()
+    </div>  
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/inputmask")
+    @Scripts.Render("~/bundles/jqueryui")
+    @Scripts.Render("~/bundles/toastr")
+    @Scripts.Render("~/bundles/materialize")
+    @Scripts.Render("~/bundles/general")
+    @RenderSection("scripts", required: false)
+    @Html.Partial("_Toastr")
+</body>
+</html>

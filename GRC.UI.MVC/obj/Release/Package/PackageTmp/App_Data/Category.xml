@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCategory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Category>
+    <Id>1</Id>
+    <Name>Canned</Name>
+  </Category>
+  <Category>
+    <Id>2</Id>
+    <Name>Bakery</Name>
+  </Category>
+  <Category>
+    <Id>3</Id>
+    <Name> Automotive and Transport</Name>
+  </Category>
+  <Category>
+    <Id>4</Id>
+    <Name>Beverage</Name>
+  </Category>
+  <Category>
+    <Id>5</Id>
+    <Name>Healthcare</Name>
+  </Category>
+  <Category>
+    <Id>6</Id>
+    <Name>Dairy Products</Name>
+  </Category>
+  <Category>
+    <Id>7</Id>
+    <Name>Frozen Food</Name>
+  </Category>
+</ArrayOfCategory>

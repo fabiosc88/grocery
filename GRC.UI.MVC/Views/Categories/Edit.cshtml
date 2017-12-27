@@ -1,0 +1,25 @@
+﻿@model Application.Models.Category.EditCategoryModel
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="section">
+    <div class="container">
+        <h4>Edição de Categoria</h4>
+        <div class="row">
+            @using (Html.BeginForm("Edit", "Categories", FormMethod.Post, new { @class = "col s12", @role = "form" }))
+            {
+                <div class="row">
+                    <div class="input-field col s6">
+                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "validate", @maxlength = "32" } })
+                        @Html.LabelFor(model => model.Name)
+                        @Html.ValidationMessageFor(model => model.Name)
+                    </div>
+                </div>
+                <button class="waves-effect waves-light btn"><i class="material-icons left">save</i>Salvar</button>
+                <a class="waves-effect waves-light btn teal" style="margin-left:15px;" href="@Url.Action("Index", "Categories")"><i class="material-icons left">fast_rewind</i>Voltar</a>
+            }
+        </div>
+    </div>
+</div>

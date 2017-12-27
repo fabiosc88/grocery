@@ -1,0 +1,16 @@
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.Data\bin\Debug\Infra.Data.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.Data\bin\Debug\Infra.Data.pdb
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.Data\bin\Debug\Domain.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.Data\bin\Debug\Domain.pdb
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.Data\obj\Debug\Infra.Data.csprojResolveAssemblyReference.cache
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.Data\obj\Debug\Infra.Data.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.Data\obj\Debug\Infra.Data.pdb
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.Data\bin\Debug\pt-BR\Domain.resources.dll
+D:\Projetos\Processo Seletivo\Take\GRC\Infra.Data\bin\Debug\Infra.Data.dll
+D:\Projetos\Processo Seletivo\Take\GRC\Infra.Data\bin\Debug\Infra.Data.pdb
+D:\Projetos\Processo Seletivo\Take\GRC\Infra.Data\bin\Debug\Domain.dll
+D:\Projetos\Processo Seletivo\Take\GRC\Infra.Data\bin\Debug\Domain.pdb
+D:\Projetos\Processo Seletivo\Take\GRC\Infra.Data\bin\Debug\pt-BR\Domain.resources.dll
+D:\Projetos\Processo Seletivo\Take\GRC\Infra.Data\obj\Debug\Infra.Data.csprojResolveAssemblyReference.cache
+D:\Projetos\Processo Seletivo\Take\GRC\Infra.Data\obj\Debug\Infra.Data.dll
+D:\Projetos\Processo Seletivo\Take\GRC\Infra.Data\obj\Debug\Infra.Data.pdb

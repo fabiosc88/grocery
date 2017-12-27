@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{10093419-73FC-4436-A1D1-3896430CB7BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{528C73E3-E64C-47A4-98FC-A90F2E36434C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{1DEA33C3-9C9F-4787-9F77-8E4460C07673}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - UI", "1 - UI", "{2680A133-C36C-4755-82CD-50FC41AA589B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{B3998321-0DD3-4547-A60C-410B7E8101DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{1F5734FD-0D06-4932-9527-C9569991F4DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{1A390803-E723-46EE-9D30-7956ECA8AC99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{57ECB9E6-A380-4C63-B855-D24648F8D38A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRC.UI.MVC", "GRC.UI.MVC\GRC.UI.MVC.csproj", "{70988AAA-4C1F-4AA6-8DE9-82826EB27A4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Data", "Infra.Data\Infra.Data.csproj", "{DC845288-9BF5-4F20-AEB2-C0A24989FD9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.CrossCutting.IoC", "Infra.CrossCutting.IoC\Infra.CrossCutting.IoC.csproj", "{704D983D-6C06-41B7-AA30-6AB7F237124B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10093419-73FC-4436-A1D1-3896430CB7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10093419-73FC-4436-A1D1-3896430CB7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10093419-73FC-4436-A1D1-3896430CB7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10093419-73FC-4436-A1D1-3896430CB7BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57ECB9E6-A380-4C63-B855-D24648F8D38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57ECB9E6-A380-4C63-B855-D24648F8D38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57ECB9E6-A380-4C63-B855-D24648F8D38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57ECB9E6-A380-4C63-B855-D24648F8D38A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70988AAA-4C1F-4AA6-8DE9-82826EB27A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70988AAA-4C1F-4AA6-8DE9-82826EB27A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70988AAA-4C1F-4AA6-8DE9-82826EB27A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70988AAA-4C1F-4AA6-8DE9-82826EB27A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC845288-9BF5-4F20-AEB2-C0A24989FD9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC845288-9BF5-4F20-AEB2-C0A24989FD9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC845288-9BF5-4F20-AEB2-C0A24989FD9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC845288-9BF5-4F20-AEB2-C0A24989FD9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{704D983D-6C06-41B7-AA30-6AB7F237124B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704D983D-6C06-41B7-AA30-6AB7F237124B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704D983D-6C06-41B7-AA30-6AB7F237124B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704D983D-6C06-41B7-AA30-6AB7F237124B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10093419-73FC-4436-A1D1-3896430CB7BC} = {528C73E3-E64C-47A4-98FC-A90F2E36434C}
+		{1F5734FD-0D06-4932-9527-C9569991F4DB} = {1DEA33C3-9C9F-4787-9F77-8E4460C07673}
+		{1A390803-E723-46EE-9D30-7956ECA8AC99} = {1DEA33C3-9C9F-4787-9F77-8E4460C07673}
+		{57ECB9E6-A380-4C63-B855-D24648F8D38A} = {B3998321-0DD3-4547-A60C-410B7E8101DD}
+		{70988AAA-4C1F-4AA6-8DE9-82826EB27A4F} = {2680A133-C36C-4755-82CD-50FC41AA589B}
+		{DC845288-9BF5-4F20-AEB2-C0A24989FD9B} = {1F5734FD-0D06-4932-9527-C9569991F4DB}
+		{704D983D-6C06-41B7-AA30-6AB7F237124B} = {1A390803-E723-46EE-9D30-7956ECA8AC99}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://testesempresas.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Application\\Application.csproj
+		SccProjectTopLevelParentUniqueName1 = GRC.sln
+		SccProjectName1 = Application
+		SccLocalPath1 = Application
+		SccProjectUniqueName2 = Domain\\Domain.csproj
+		SccProjectTopLevelParentUniqueName2 = GRC.sln
+		SccProjectName2 = Domain
+		SccLocalPath2 = Domain
+		SccProjectUniqueName3 = GRC.UI.MVC\\GRC.UI.MVC.csproj
+		SccProjectTopLevelParentUniqueName3 = GRC.sln
+		SccProjectName3 = GRC.UI.MVC
+		SccLocalPath3 = GRC.UI.MVC
+		SccProjectUniqueName4 = Infra.Data\\Infra.Data.csproj
+		SccProjectTopLevelParentUniqueName4 = GRC.sln
+		SccProjectName4 = Infra.Data
+		SccLocalPath4 = Infra.Data
+		SccProjectUniqueName5 = Infra.CrossCutting.IoC\\Infra.CrossCutting.IoC.csproj
+		SccProjectTopLevelParentUniqueName5 = GRC.sln
+		SccProjectName5 = Infra.CrossCutting.IoC
+		SccLocalPath5 = Infra.CrossCutting.IoC
+	EndGlobalSection
+EndGlobal

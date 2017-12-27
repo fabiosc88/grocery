@@ -1,0 +1,46 @@
+﻿@model Application.Models.Product.CreateProductModel
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="section">
+    <div class="container">
+        <h4>Product Registration</h4>
+        <div class="row">
+            @using (Html.BeginForm("Create", "Products", FormMethod.Post, new { @class = "col s12", @role = "form" }))
+            {
+                <div class="row">
+                    <div class="input-field col s6">
+                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "validate", @maxlength = "64" } })
+                        @Html.LabelFor(model => model.Name)
+                        @Html.ValidationMessageFor(model => model.Name)
+                    </div>
+                    <div class="input-field col s6">
+                        @Html.EditorFor(model => model.Unit, new { htmlAttributes = new { @class = "validate", @maxlength = "16" } })
+                        @Html.LabelFor(model => model.Unit)
+                        @Html.ValidationMessageFor(model => model.Unit)
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        @Html.Hidden("Culture", System.Threading.Thread.CurrentThread.CurrentCulture.DisplayName)
+                        @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "validate currency" } })
+                        @Html.LabelFor(model => model.Price)
+                        @Html.ValidationMessageFor(model => model.Price)
+                    </div>
+                    <div class="input-field col s6">
+                        @Html.DropDownListFor(model => model.CategoryId, new SelectList(Model.CategoryList, "Id", "Name"), "Selet the Category")
+                        @Html.ValidationMessageFor(model => model.CategoryId)
+                    </div>
+                </div>
+                <button class="waves-effect waves-light btn"><i class="material-icons left">save</i>save</button>
+                <a class="waves-effect waves-light btn teal" style="margin-left:15px;" href="@Url.Action("Index", "Products")"><i class="material-icons left">fast_rewind</i>Back</a>
+            }
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script src="~/Scripts/pages/productpage.js"></script>
+}

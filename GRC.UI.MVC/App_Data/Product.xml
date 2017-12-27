@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Product>
+    <Id>1</Id>
+    <Name>Detergente</Name>
+    <Unit>Unidade</Unit>
+    <Price>1.23</Price>
+    <Basket>false</Basket>
+    <BasketOrder>0</BasketOrder>
+    <CategoryId>1</CategoryId>
+  </Product>
+</ArrayOfProduct>

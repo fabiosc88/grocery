@@ -1,0 +1,10 @@
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Application\bin\Release\Application.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Application\bin\Release\Application.pdb
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Application\bin\Release\Domain.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Application\bin\Release\Infra.Data.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Application\bin\Release\Domain.pdb
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Application\bin\Release\Infra.Data.pdb
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Application\bin\Release\pt-BR\Domain.resources.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Application\obj\Release\Application.csprojResolveAssemblyReference.cache
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Application\obj\Release\Application.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Application\obj\Release\Application.pdb

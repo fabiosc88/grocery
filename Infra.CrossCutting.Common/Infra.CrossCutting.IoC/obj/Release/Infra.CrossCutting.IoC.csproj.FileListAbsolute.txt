@@ -1,0 +1,14 @@
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.IoC\bin\Release\Infra.CrossCutting.IoC.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.IoC\bin\Release\Infra.CrossCutting.IoC.pdb
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.IoC\bin\Release\Application.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.IoC\bin\Release\Domain.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.IoC\bin\Release\Infra.Data.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.IoC\bin\Release\SimpleInjector.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.IoC\bin\Release\Application.pdb
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.IoC\bin\Release\Domain.pdb
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.IoC\bin\Release\Infra.Data.pdb
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.IoC\bin\Release\SimpleInjector.xml
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.IoC\bin\Release\pt-BR\Domain.resources.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.IoC\obj\Release\Infra.CrossCutting.IoC.csprojResolveAssemblyReference.cache
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.IoC\obj\Release\Infra.CrossCutting.IoC.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.IoC\obj\Release\Infra.CrossCutting.IoC.pdb

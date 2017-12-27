@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Product>
+    <Id>5</Id>
+    <Name>Orange Huice</Name>
+    <Unit>Unit</Unit>
+    <Price>2.50</Price>
+    <Basket>false</Basket>
+    <BasketOrder>0</BasketOrder>
+    <CategoryId>4</CategoryId>
+  </Product>
+  <Product>
+    <Id>7</Id>
+    <Name>Cheese</Name>
+    <Unit>Unit</Unit>
+    <Price>3.89</Price>
+    <Basket>false</Basket>
+    <BasketOrder>0</BasketOrder>
+    <CategoryId>6</CategoryId>
+  </Product>
+  <Product>
+    <Id>3</Id>
+    <Name>Oil Car</Name>
+    <Unit>Unit.</Unit>
+    <Price>54.12</Price>
+    <Basket>false</Basket>
+    <BasketOrder>4</BasketOrder>
+    <CategoryId>3</CategoryId>
+  </Product>
+  <Product>
+    <Id>1</Id>
+    <Name>Beer</Name>
+    <Unit>Unit</Unit>
+    <Price>7.90</Price>
+    <Basket>false</Basket>
+    <BasketOrder>3</BasketOrder>
+    <CategoryId>4</CategoryId>
+  </Product>
+  <Product>
+    <Id>2</Id>
+    <Name>Bread</Name>
+    <Unit>Kgl</Unit>
+    <Price>5.00</Price>
+    <Basket>true</Basket>
+    <BasketOrder>1</BasketOrder>
+    <CategoryId>2</CategoryId>
+  </Product>
+  <Product>
+    <Id>4</Id>
+    <Name>Fries</Name>
+    <Unit>Unit</Unit>
+    <Price>3.50</Price>
+    <Basket>true</Basket>
+    <BasketOrder>2</BasketOrder>
+    <CategoryId>7</CategoryId>
+  </Product>
+  <Product>
+    <Id>6</Id>
+    <Name>Pizza</Name>
+    <Unit>Unit</Unit>
+    <Price>8.99</Price>
+    <Basket>true</Basket>
+    <BasketOrder>3</BasketOrder>
+    <CategoryId>7</CategoryId>
+  </Product>
+</ArrayOfProduct>

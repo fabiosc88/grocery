@@ -1,0 +1,100 @@
+﻿@model Application.Models.Shop.ListShopModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    #basket .name{
+        font-size:1.2rem;
+        font-weight:bold;
+    }
+
+    #avaliable .name{
+        font-size:1.64rem;
+        font-weight:bold;
+    }
+
+    #avaliable .category{
+        font-size:1.0rem;
+    }
+
+    #avaliable .price {
+        font-size:1.2rem;
+        font-weight:bold;
+    }
+
+    #avaliable .unit {
+        font-size:1.1rem;
+    }
+</style>
+
+<div class="section">
+    <div class="container">
+        <h4>Basket</h4>
+        @if (Model.BasketList.Any())
+        {
+            <ul id="basket" class="collection with-header">
+                @foreach (var item in Model.BasketList)
+                {
+                    <li class="collection-item" style="cursor:move !important;" title="Drag the item to reorder the list">
+                        <span class="name">@item.Name</span> - @item.Price.ToString("C") 
+                        <span class="secondary-content">
+                            <input id="product-@item.Id"
+                                    name="product-@item.Id"
+                                    class="putBasket"
+                                    type="checkbox"
+                                    checked="@item.Basket"
+                                    productId="@item.Id"
+                                    categoryId="@item.CategoryId" />
+                            <label for="product-@item.Id" title="Remove from the basket"></label>
+                        </span>
+                    </li>
+                }
+            </ul>
+        }
+        else
+        {
+            <h5>There are no products in the basket</h5>
+        }
+        <br /><br />
+        <h4>Available Products</h4>
+        <br /><br />
+        @if (Model.AvailableProductList.Any())
+        {
+            foreach (var item in Model.AvailableProductList)
+            {
+                <ul id="avaliable" class="collection">
+                    <li class="collection-item avatar">
+                        <i class="material-icons circle green">insert_chart</i>
+                        <span class="title">
+                            <span class="name">@item.Name</span> -
+                            <span class="category">Category: @item.CategoryName</span>
+                        </span>
+                        <p class="price">Price: @item.Price.ToString("C")</p>
+                        <p class="unit">Unit: @item.Unit</p>
+                        <span class="secondary-content">
+                            <input id="product-@item.Id"
+                                    name="product-@item.Id"
+                                    class="putBasket"
+                                    type="checkbox"
+                                    checked="@item.Basket"
+                                    productId="@item.Id"
+                                    categoryId="@item.CategoryId" />
+                            <label for="product-@item.Id" title="Put in the Basket"></label>
+                        </span>
+                    </li>
+                </ul>
+            }
+        }
+        else
+        {
+            <h5>There are no products available</h5>
+        }
+    </div>
+</div>
+            
+@section scripts {
+    <script src="~/Scripts/pages/shoppage.js"></script>
+}
+

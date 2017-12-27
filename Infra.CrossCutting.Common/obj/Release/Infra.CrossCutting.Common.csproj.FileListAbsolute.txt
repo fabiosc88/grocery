@@ -1,0 +1,5 @@
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.Common\bin\Release\Infra.CrossCutting.Common.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.Common\bin\Release\Infra.CrossCutting.Common.pdb
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.Common\obj\Release\Infra.CrossCutting.Common.csprojResolveAssemblyReference.cache
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.Common\obj\Release\Infra.CrossCutting.Common.dll
+D:\Projetos\Processo Seletivo\NonLinear\GRC\Infra.CrossCutting.Common\obj\Release\Infra.CrossCutting.Common.pdb

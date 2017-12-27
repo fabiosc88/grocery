@@ -1,0 +1,63 @@
+﻿@model List<Application.Models.Category.ListGridCategoryModel>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="section">
+    <div class="container">
+        <h4>List of Categories</h4>
+        <div style="float: right; margin-top: 20px;">
+            <a class="waves-effect waves-light btn teal" href="@Url.Action("Create", "Categories")"><i class="material-icons left">add</i>New Category</a>
+        </div>
+        <br /><br />
+        @if (Model.Any())
+        {
+            <table id="categoryList" class="highlight bordered">
+                <thead>
+                    <tr>
+                        <th data-field="id">Id</th>
+                        <th data-field="nome">Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+                            <td>
+                                @using (Html.BeginForm("Delete", "Categories", new { id = item.Id }))
+                                {
+                                    @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                    <a class="waves-effect waves-light btn" style="padding: 0 1rem" href="@Url.Action("Edit", "Categories", new { id = item.Id })"><i class="material-icons">edit</i></a>
+                                    <button class="waves-effect waves-light btn red btn-delete" style="padding: 0 1rem" type="submit"><i class="material-icons">delete</i></button>
+                                }
+
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <h5>There are no registered categories</h5>
+        }
+    </div>
+</div>
+
+@section scripts{
+    <script type="text/javascript">
+    $(function () {
+        $("#categoryList").on("click", ".btn-delete", function (event) {
+            //Prevent default event
+            event.preventDefault();
+
+            //Toastr Message
+            generalScripts.toastrConfirm($(this).parent());
+        });
+    });
+    </script>
+}

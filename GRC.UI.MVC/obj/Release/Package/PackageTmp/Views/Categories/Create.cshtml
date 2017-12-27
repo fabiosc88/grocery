@@ -1,0 +1,26 @@
+﻿@model Application.Models.Category.CreateCategoryModel
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="section">
+    <div class="container">
+        <h4>Category Registration</h4>
+        <div class="row">
+            @using (Html.BeginForm("Create", "Categories", FormMethod.Post, new { @class = "col s12", @role = "form" }))
+            {
+                <div class="row">
+                    <div class="input-field col s6">
+                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "validate", @maxlength = "32" } })
+                        @Html.LabelFor(model => model.Name)
+                        @Html.ValidationMessageFor(model => model.Name)
+                    </div>
+                </div>
+                <button class="waves-effect waves-light btn"><i class="material-icons left">save</i>save</button>
+                <a class="waves-effect waves-light btn teal" style="margin-left:15px;" href="@Url.Action("Index", "Categories")"><i class="material-icons left">fast_rewind</i>Back</a>
+            }
+        </div>
+    </div>
+</div>
+
