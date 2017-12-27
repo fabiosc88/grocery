@@ -1,5 +1,5 @@
 # Grocery List Application
-It's a simple web application to manage a grocery list following some development patterns.
+It's a simple web application to manage a grocery list. The goal of this application is to show how can we build an application with a good structure and following some development patterns
 
 ## Platforms
 The project was developed in Visual Studio 2015 Community Edition
