@@ -7,7 +7,7 @@ The project was developed in Visual Studio 2015 Community Edition
 ## Technologies
 - ASP.NET MVC 5
 - Jquery
-- XML
+- XML as Database
 
 ## Patterns Applied 
 
